@@ -21,7 +21,7 @@
 if (isset ($_POST["palindrome"])){
 
 
-     //strip_tags to remove html bugs
+     //strip_tags to remove html bugs.
      $pali = strip_tags(($_POST["palindrome"]));
      echo "</br>Word/Phrase entered:", $pali;
 
